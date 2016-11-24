@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   template: `
   <h1>Inline Template</h1>
   <fa-other></fa-other>
+  <fa-another></fa-another>
   `,
   styles: [`
   h1{
