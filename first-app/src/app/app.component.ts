@@ -1,19 +1,14 @@
 import { Component } from '@angular/core';
+import { AppModule } from './app.module';
 
 @Component({
   selector: 'app-root',
   template: `
-  <h1>Inline Template</h1>
-  <fa-other></fa-other>
-  <fa-another></fa-another>
+  <h1>Root Component</h1>
+   <fa-databinding></fa-databinding>
   `,
-  styles: [`
-  h1{
-    color: red;
-  }
-
-  `]
+  
 })
 export class AppComponent {
-  title = "I've changed it!";
+  
 }
