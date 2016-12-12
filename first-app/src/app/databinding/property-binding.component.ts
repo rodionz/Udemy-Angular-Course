@@ -9,6 +9,6 @@ import { Component, Input} from '@angular/core';
 })
 export class PropertyBindingComponent  {
 
- @Input() reslut: number = 0;
+ @Input() result: number = 0;
 
 }

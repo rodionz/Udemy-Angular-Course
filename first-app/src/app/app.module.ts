@@ -10,10 +10,8 @@ import { PropertyBindingComponent } from './databinding/property-binding.compone
 
 @NgModule({
   declarations: [
-    AppComponent,
-   
+    AppComponent,   
     DatabindingComponent,
-   
     PropertyBindingComponent
   ],
   imports: [
