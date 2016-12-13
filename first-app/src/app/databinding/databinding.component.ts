@@ -15,4 +15,9 @@ numberInterpolation = 2;
 onTest(){
   return true;
 }
+
+onClicked(value : string){
+  alert(value);
+}
+
 }
