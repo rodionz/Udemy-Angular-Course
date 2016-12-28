@@ -1,14 +1,15 @@
-import { Component } from '@angular/core';
-import { AppModule } from './app.module';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `
-  <h1>Root Component</h1>
-   <fa-databinding></fa-databinding>
-  `,
-  
+  templateUrl: './app.component.html'
 })
-export class AppComponent {
-  
+export class AppComponent implements OnInit {
+  testData: string[] = [];
+
+  ngOnInit() {
+    for (let i = 0; i < 5; i++) {
+      this.testData.push('New Item: ' + i);
+    }
+  }
 }
